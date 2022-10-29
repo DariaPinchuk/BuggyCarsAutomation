@@ -33,7 +33,7 @@ public class RegistrationPageImpl extends BasePage implements RegistrationPage {
         findElement(lastNameInputTextLocator).sendKeys(lastName);
         findElement(newPasswordInputTextLocator).sendKeys(newPassword);
         findElement(confirmPasswordInputTextLocator).sendKeys(confirmPassword);
-        findElement(registerErrorMessageLocator).sendKeys(loginNew);
+
 
         findElement(registerButtonLocator).click();
 
